@@ -1,0 +1,30 @@
+*{
+    margin: 3px;
+    box-sizing: border-box;
+}
+.class-emoji{
+    display: flex;
+    width: 180px;
+    justify-content:end;
+    border-radius: 10px;
+}
+body{
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#main-emoji{
+    background-color: white;
+    /* border: 1px solid black; */
+    border-radius: 10px;
+    align-items: center;
+    display: flex;
+    justify-content:center;
+    width: 20px;
+    /* height: 20px; */
+}
+.emojis{
+    display: contents;
+    border: 2px solid white;
+}
